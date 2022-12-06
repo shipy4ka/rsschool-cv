@@ -16,3 +16,7 @@ I have bachelor degree in law and work expierence in Human Resources department,
 At studies time I had experience in HoReCa and selling. 
 That experience help me to communicate with different kinds of people and first of all help me understand how to make this communication usefull for both. 
 ***********
+** Skills:
+have not yet
+******************
+** code example:
