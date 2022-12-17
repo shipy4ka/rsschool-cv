@@ -27,7 +27,7 @@ body {
 
 .nav-list {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     list-style: none;
 }
@@ -70,12 +70,12 @@ color:cornflowerblue
     color: #829985;
 }
 
-.link {
+.nav-link {
     text-decoration: none;
     color: rgb(124, 108, 135);
     transition: color 0.5s;
 }
 
-.link:hover {
-    color: darkcyan;
+.nav-link:hover {
+    color: rgb(190, 18, 167);
 }
