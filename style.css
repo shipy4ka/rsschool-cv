@@ -1,16 +1,106 @@
-html, body {
-    font-family: Arial, serif;
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Fira Sans Condensed', sans-serif;
     font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgb(17, 5, 69); 
+    min-height: 100vh;    
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+
+* {
+    box-sizing: border-box;
 }
-table {
-    border-collapse: collapse;
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
 }
-table.border td, table.border th {
-    padding: 5px;
-    border: 1px solid #c0c0c0;
+
+.section-name {
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #0a7c86; 
 }
-table.border th {
-    background: #e0e0e0;
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .4s;
+}
+.section-title {
+    position: relative;
+    padding-left:  30px;
+}
+.section-title::before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 0px;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #0c5716;
+    border-radius: 50%;
+}
+.section-title a {
+    color: aquamarine;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.section-title a:hover {
+color:cornflowerblue
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: 50%;
+}
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #0c5716;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    color: rgb(124, 108, 135);
+    transition: color 0.5s;
+}
+
+.nav-link:hover {
+    color: rgb(190, 18, 167);
+}
+
