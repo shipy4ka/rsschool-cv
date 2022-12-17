@@ -1,12 +1,13 @@
-** Maryna Uhlianitsa
+![Alt-photo](photo.jpg "Photo")
+# Maryna Uhlianitsa
 ******************
-** Contacts:
+## Contacts:
 * tel. +375447617931
 * e-mail: marinauglanica@gmail.com
 * discord: shipy4ka
 * instagram: marina_uglyanica
 *******************
-** About me:
+## About me:
 I'm starting my way at JS.
 
 My main purpose at this moment find out the key for freedomfrom political circumstances and other global problems.
@@ -16,7 +17,25 @@ I have bachelor degree in law and work expierence in Human Resources department,
 At studies time I had experience in HoReCa and selling. 
 That experience help me to communicate with different kinds of people and first of all help me understand how to make this communication usefull for both. 
 ***********
-** Skills:
-have not yet
+## Skills:
+* HTML-begginer
+* CSS-begginer
+* Git-begginer
 ******************
-** code example:
+## Code:
+This code I use only as demonstration that I can put it in HTML document.
+```
+function multiply (a,b) {
+         return a*b;
+}
+```
+*****************
+## Projects:
+I had no projects before this time.
+[My first project.](https://shipy4ka.github.io/rsschool-cv/ "CV")
+*****************
+## Education
+Law faculty of Belarussian State University
+****************
+## English
+My English level is somewhere between B1 Intermediate and B2 Upper Intermediate according to the CEFR.
