@@ -1,22 +1,84 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>HTML5. Базовый шаблон для любого проекта</title>
-  <meta name="description" content="Шаблон HTML5 для любого проекта">
-  <meta name="author" content="Кодер">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://кодер.укр/">
-  <meta property="og:description" content="Шаблон HTML5 для любого проекта">
-  <meta property="og:image" content="image.png">
-  <link rel="icon" href="/favicon.ico">
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
 </head>
 <body>
-  <!-- your content here... -->
-  <script src="js/scripts.js"></script>
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#contacts" class="nav-link"></a></li>
+                <li class="nav-item"><a href="#about-me" class="nav-link"></a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link"></a></li>
+                <li class="nav-item"><a href="#code" class="nav-link"></a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link"></a></li>
+                <li class="nav-item"><a href="#education" class="nav-link"></a></li>
+                <li class="nav-item"><a href="#english" class="nav-link"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="section" id="profile">
+            <h1 class="section-title">Maryna Uhlianitsa</h1>
+        </section>
+        <section class="section" id="contacts">
+            <h2 class="section-title">Contacts</h2>
+            <ul>
+                <li>tel. +375447617931</li>
+                <li>e-mail: marinauglanica@gmail.com</li>
+                <li>discord: shipy4ka</li>
+                <li>instagram: marina_uglyanica</li>
+            </ul>
+        </section>
+        <section class="section" id="about-me">
+            <h2 class="section-title">About me</h2>
+            <p>I'm starting my way at JS.
+
+                My main purpose at this moment find out the key for freedomfrom political circumstances and other global problems.
+                My first education help me to found out the main skill of my life it's an aptitude to find out information about everything I need or want.
+                I have various work expierence: first of all I'm a lawyer. 
+                I have bachelor degree in law and work expierence in Human Resources department, soule  lawyer of company, law consultant in different fields of law. 
+                At studies time I had experience in HoReCa and selling. 
+                That experience help me to communicate with different kinds of people and first of all help me understand how to make this communication usefull for both. </p>
+        </section>
+        <section class="section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <ul>
+                <li>HTML-begginer</li>
+                <li>CSS-begginer</li>
+                <li>Git-begginer</li>
+            </ul>
+        </section>
+        <section class="section" id="code">
+            <h2 class="section-title">Code</h2>
+            <p>This code I use only as demonstration that I can put it in HTML</p>
+            <code>
+                function multiply (a,b){
+                    return a*b;
+                }
+            </code>
+        </section>
+        <section class="section" id="projects">
+            <h2 class="section-title">Projects</h2>
+            <p>I had no projects before this time</p>
+            <a href="https://shipy4ka.github.io/rsschool-cv/">My first project. CV</a>
+        </section>
+        <section class="section" id="education">
+            <h2 class="section-title">Education</h2>
+            <p>Law faculty of Belarussian State University</p>
+        </section>
+        <section class="section" id="english">
+            <h2 class="section-title">English</h2>
+            <p>My English level is somewhere between B1 Intermediate and B2 Upper Intermediate accordin to the CEFR.</p>
+        </section>
+    
+    </main>
+    <footer class="footer"></footer>
 </body>
 </html>
